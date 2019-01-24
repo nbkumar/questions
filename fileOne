@@ -1,0 +1,3 @@
+how i2c master determines the address of slaves? does it scan and assigns ?
+A: no. i2c slaves have standard addresses..each I2C device must have a unique address - and the addresses only range from 0 to 127 (aka 0 to 0x7F hex
+https://learn.adafruit.com/i2c-addresses/the-list
